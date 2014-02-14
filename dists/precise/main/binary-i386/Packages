@@ -1,0 +1,18 @@
+Package: ffmpeg-doc
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 45
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: doc
+Filename: pool/main/f/ffmpeg-doubango/ffmpeg-doc_1.0.1-1~precise1_all.deb
+Size: 36124
+SHA256: 6ad0fd533bbafd06cd3d3ea5e1da60a8f560325da5d5f372be2ee5d9187fb622
+SHA1: d46f6406f09455b65caac64ff78c7ba2759c6428
+MD5sum: 16293080e3b1ddd3769a014e5171b8ef
+Description: Documentation of the FFmpeg API.
+ This package contains the html doxygen documentation of the FFmpeg API.
+

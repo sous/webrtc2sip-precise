@@ -1,0 +1,530 @@
+Package: ffmpeg-doc
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: all
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 45
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: doc
+Filename: pool/main/f/ffmpeg-doubango/ffmpeg-doc_1.0.1-1~precise1_all.deb
+Size: 36124
+SHA256: 6ad0fd533bbafd06cd3d3ea5e1da60a8f560325da5d5f372be2ee5d9187fb622
+SHA1: d46f6406f09455b65caac64ff78c7ba2759c6428
+MD5sum: 16293080e3b1ddd3769a014e5171b8ef
+Description: Documentation of the FFmpeg API.
+ This package contains the html doxygen documentation of the FFmpeg API.
+
+Package: libavcodec-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 2181
+Depends: libavcodec54 (= 8:1.0.1-1~precise1), libvorbis-dev, libogg-dev, liba52-dev, zlib1g-dev, libtheora-dev (>> 0.0.0.alpha4), libgsm1-dev, libfaac-dev, libfaad-dev, libx264-dev, libavutil-dev (>= 8:1.0.1-1~precise1), libmp3lame-dev, libxvidcore-dev, libdc1394-22-dev, libraw1394-dev, libdirac-dev, libschroedinger-dev, libopencore-amrnb-dev, libopencore-amrwb-dev
+Conflicts: libavcodec1-dev, libavcodec2-dev, libavcodeccvs-dev, libavcodeccvs51-dev (<= 3:20071129-0.0), libffmpeg0
+Replaces: libavcodeccvs-dev, libavcodeccvs51-dev (<= 3:20071129-0.0)
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libavcodec-dev_1.0.1-1~precise1_amd64.deb
+Size: 521716
+SHA256: 07d19b43653c12bc70749623b7585fa32e3a72495e59453a8f0e3bf0cc64db41
+SHA1: 1d88c51aa33c575469eff8f446185295fdf2389e
+MD5sum: b179a3e7467738ea2a78e63fbb4ae067
+Description: Library to encode decode multimedia streams - devel files.
+ FFmpeg is a hyper fast real time audio/video encoder, a streaming server
+ and a generic audio and video file converter.
+ .
+ It can grab from a standard Video4Linux video source and convert it into
+ several file formats based on DCT/motion compensation encoding. Sound is
+ compressed in MPEG audio layer 2 or using an AC3 compatible stream.
+
+Package: libavcodec54
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 1550
+Pre-Depends: multiarch-support
+Depends: libavutil51 (>= 8:1.0.1), libc6 (>= 2.14), libx264-120
+Conflicts: libavcodec-extra-53, libavcodeccvs51
+Replaces: libavcodeccvs51
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libavcodec54_1.0.1-1~precise1_amd64.deb
+Size: 448634
+SHA256: 4f22163e161fdc3d72ce563b2106e78dd3f95bc16257befed2c4b8f01b19b64c
+SHA1: c85f8c1e20f96c079228451b86b586fd038d0a1d
+MD5sum: 5fd4ff907f55e500c32651fd14765083
+Description: Library to encode decode multimedia streams - runtime files.
+ FFmpeg is a hyper fast real time audio/video encoder, a streaming server
+ and a generic audio and video file converter.
+ .
+ It can grab from a standard Video4Linux video source and convert it into
+ several file formats based on DCT/motion compensation encoding. Sound is
+ compressed in MPEG audio layer 2 or using an AC3 compatible stream.
+
+Package: libavdevice-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 20
+Depends: libavdevice54 (= 8:1.0.1-1~precise1), libavformat-dev (>= 8:1.0.1-1~precise1)
+Conflicts: libavdevicecvs-dev, libavdevicecvs52-dev (<= 3:20071129-0.0)
+Replaces: libavdevicecvs-dev, libavdevicecvs52-dev (<= 3:20071129-0.0)
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libavdevice-dev_1.0.1-1~precise1_amd64.deb
+Size: 15034
+SHA256: 9ecd478593bfa13545abb8ee1f99319492a960aef7a2bd22f6968080a0980389
+SHA1: b9a1b43c9465a72d91d97daed6f20dbcae6a176f
+MD5sum: 50a2b57079c48aa48405f3370cc6eedb
+Description: Development files for libavdevice.
+ This is the device handling library from the FFmpeg project.
+ .
+ This package contains the header files and static libraries needed to
+ compile applications or shared objects that use libavdevice.
+
+Package: libavdevice54
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 18
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.2.5)
+Conflicts: libavdevice-extra-53, libavdevicecvs52
+Replaces: libavdevicecvs52
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libavdevice54_1.0.1-1~precise1_amd64.deb
+Size: 14288
+SHA256: 3974b4dee3a7114395958e95705100f1b051ba350a70502d5b80f1e46b4a0ff5
+SHA1: 6a68d1a6efc4c9edb91e8fff4ba5b802797562d7
+MD5sum: 995d3d1d46aeebb84d046ad7475c321e
+Description: FFmpeg device handling library.
+ This is the device handling library from the FFmpeg project.
+
+Package: libavfilter-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 252
+Depends: libavfilter3 (= 8:1.0.1-1~precise1), libavcodec-dev
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libavfilter-dev_1.0.1-1~precise1_amd64.deb
+Size: 68746
+SHA256: 3f5b0e527fc83db4f3e1e36c98eed13d30374010c402ce3a737f0ca61130284c
+SHA1: 69cc5a7c3935255726aba84347381e488c86527a
+MD5sum: b7a4b1eb78711ec0009af964734f7d40
+Description: Development files for libavfilter.
+ libavfilter is a graphics library, therefore for:
+ .
+  * drawing text
+    Create a single drawtext filter using freetype
+  * supporting filters from libmpcodecs
+    Create a single filter that links to libmpcodecs
+  * supporting filters from gimp
+    Create a single filter that links to it
+  * reading images
+    Create a filter using libavcodec
+  * blending two things
+    Create a single filter doing the blending using C .
+ .
+ This package contains the header files and static libraries needed to
+ compile applications or shared objects that use libavfilter0.
+
+Package: libavfilter3
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 122
+Pre-Depends: multiarch-support
+Depends: libavutil51 (>= 8:1.0.1), libc6 (>= 2.14)
+Conflicts: libavfilter-extra-2
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libavfilter3_1.0.1-1~precise1_amd64.deb
+Size: 51430
+SHA256: add86694c086fca5cc3a55138830948fa715920397521d20861c281fbd32da82
+SHA1: 528a9fe8d6f4c563de07c971c470f0bbe412e9f2
+MD5sum: a1dd55a09ee5f7cb04c44757442e3e77
+Description: FFmpeg filter library.
+ libavfilter is a graphics library, therefore for:
+ .
+  * drawing text
+    Create a single drawtext filter using freetype
+  * supporting filters from libmpcodecs
+    Create a single filter that links to libmpcodecs
+  * supporting filters from gimp
+    Create a single filter that links to it
+  * reading images
+    Create a filter using libavcodec
+  * blending two things
+    Create a single filter doing the blending using C
+
+Package: libavformat-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 304
+Depends: libavformat54 (= 8:1.0.1-1~precise1), libraw1394-dev, libavcodec-dev
+Conflicts: libavformatcvs-dev, libavformatcvs52-dev (<= 3:20071129-0.0)
+Replaces: libavcodeccvs-dev (<= 3:20050716-0.4), libavcodeccvs51-dev (<= 3:20070106-0.1), libavformatcvs-dev, libavformatcvs51-dev (<= 3:20071112-0.0), libavformatcvs52-dev (<= 3:20071129-0.0)
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libavformat-dev_1.0.1-1~precise1_amd64.deb
+Size: 94850
+SHA256: 238d6ff14b1d6038dfa441631d550866059f5843789a6b7110cf4015d90ce0e8
+SHA1: a779c759258179623bccab10fbf837b1f6585eeb
+MD5sum: 4ef21f8a2f4a0d2a4ec45831977f874d
+Description: Development files for libavformat.
+ This is the demuxer library from the FFmpeg project. It supports most
+ existing file formats (AVI, MPEG, OGG, Matroska, ASF...).
+
+Package: libavformat54
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 147
+Pre-Depends: multiarch-support
+Depends: libavcodec54 (>= 8:1.0.1), libavutil51 (>= 8:1.0.1), libc6 (>= 2.14)
+Conflicts: libavformat-extra-53, libavformatcvs, libavformatcvs52
+Replaces: libavcodeccvs51 (<= 3:20070106-0.1), libavformatcvs52
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libavformat54_1.0.1-1~precise1_amd64.deb
+Size: 67916
+SHA256: 80ce21efeca3ce5d6dc7d3e8d0df407918e9c0ac0070e9bad93fea806d753bff
+SHA1: be199938b7699612a1d7ca4adeaf4f8976d7a035
+MD5sum: 0d451203c3629c57a972c26801bc7c84
+Description: FFmpeg file format library.
+ This is the demuxer library from the FFmpeg project. It supports most
+ existing file formats (AVI, MPEG, OGG, Matroska, ASF...).
+
+Package: libavutil-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 481
+Depends: libavutil51 (= 8:1.0.1-1~precise1)
+Conflicts: libavutil-dev, libavutilcvs-dev, libavutilcvs49-dev (<= 3:20071129-0.0)
+Replaces: libavcodec-dev, libavcodeccvs-dev (<= 3:20050716-0.4), libavcodeccvs51 (<= 3:20070312-0.0), libavcodeccvs51-dev (<= 3:20070528-0.0), libavutilcvs-dev, libavutilcvs49-dev (<= 3:20071129-0.0)
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libavutil-dev_1.0.1-1~precise1_amd64.deb
+Size: 123034
+SHA256: c05ef3e502a96968bb1dd654206ac4fadf21b9fd98d2e6e72d0a50b393cf7d46
+SHA1: c9611a9528f6dda3afb6e7d376ffc436cabe7ccd
+MD5sum: bd818c6eddd4ac25da2ee81541f89734
+Description: FFmpeg avutil devel files - devel files.
+ This package contains the FFmpeg video utility.
+
+Package: libavutil51
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 162
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14)
+Conflicts: libavutil-extra-51, libavutilcvs49, libpostproc0
+Replaces: libavutilcvs49
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libavutil51_1.0.1-1~precise1_amd64.deb
+Size: 73806
+SHA256: f3b50e82bf6d72f1b014dfe25fa94e5d0778886e68cff52510a883e7729657d7
+SHA1: 2719cf179a68d19eada5b571c1faab6e74aa35a3
+MD5sum: d0b5c0e8cee18167fd711a428f26a382
+Description: FFmpeg avutil library - runtime files
+ This package contains the FFmpeg video utility.
+
+Package: libdoubango
+Source: doubango
+Version: 2.0+svn885-0~precise1
+Architecture: amd64
+Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
+Installed-Size: 2329
+Depends: libavcodec54 (>= 8:1.0.1), libavutil51 (>= 8:1.0.1), libc6 (>= 2.15), libgsm1 (>= 1.0.13), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libsrtp0, libssl1.0.0 (>= 1.0.1), libswscale2 (>= 8:1.0.1), libvpx1 (>= 1.0.0)
+Homepage: http://www.doubango.org/
+Priority: extra
+Section: libs
+Filename: pool/main/d/doubango/libdoubango_2.0+svn885-0~precise1_amd64.deb
+Size: 878260
+SHA256: 37e05f5cf2f87a12781b4e52a8c9ac48e0340ca0ffe273b0bb00c692f6e9bfe4
+SHA1: 22f5f6afa2d6f171a99a8b792217e1729992f004
+MD5sum: 5bf135150faaceab4bd7450b6e78b67d
+Description: Doubango framework
+ doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
+ .
+ doubango is a set of small APIs put together to form a powerful 3GPP IMS/LTE framework. These stacks implement many protocols such as SIP/SDP, HTTP/HTTPS, DNS, DHCPv4/DHCPv6, SigComp, MSRP, XCAP, NAT Traversal (STUN, TURN and ICE).
+
+Package: libdoubango-dev
+Source: doubango
+Version: 2.0+svn885-0~precise1
+Architecture: amd64
+Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
+Installed-Size: 5997
+Depends: libdoubango (= 2.0+svn885-0~precise1)
+Homepage: http://www.doubango.org/
+Priority: extra
+Section: libdevel
+Filename: pool/main/d/doubango/libdoubango-dev_2.0+svn885-0~precise1_amd64.deb
+Size: 1327628
+SHA256: ddd46b1b932120760e2b32bdb889c86554def0d42255cd1e9c3de4ecf4d2b7a3
+SHA1: 55e678b29117696299650ec8307ba29d89a6c979
+MD5sum: e9903b437d307d2f3ca20b76e00ec03e
+Description: Doubango framework development files
+ doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
+ .
+ doubango is a set of small APIs put together to form a powerful 3GPP IMS/LTE framework. These stacks implement many protocols such as SIP/SDP, HTTP/HTTPS, DNS, DHCPv4/DHCPv6, SigComp, MSRP, XCAP, NAT Traversal (STUN, TURN and ICE).
+
+Package: libpostproc-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 117
+Depends: libpostproc52 (= 8:1.0.1-1~precise1)
+Conflicts: libpostproccvs-dev, libpostproccvs51-dev (<= 3:20071129-0.0)
+Replaces: libpostproccvs-dev, libpostproccvs0 (<= 3:20050716-0.4), libpostproccvs51-dev (<= 3:20071129-0.0)
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libpostproc-dev_1.0.1-1~precise1_amd64.deb
+Size: 45614
+SHA256: 0e896bc48e2e84d084426146342af5dae26c3ea1ba01f6c5c3b5ada018bceb74
+SHA1: a28b1d4e5d0fa8371cb9cb5388d6cb8188486c06
+MD5sum: a9d339dd684678a6b68f248f0148f939
+Description: postproc devel files
+ This package contains the FFmpeg video postprocessing devel files.
+
+Package: libpostproc52
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 110
+Pre-Depends: multiarch-support
+Depends: libavutil51 (>= 8:1.0.1), libc6 (>= 2.14)
+Conflicts: libpostproc-extra-52, libpostproc0, libpostproccvs51
+Replaces: libpostproccvs51
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libpostproc52_1.0.1-1~precise1_amd64.deb
+Size: 44856
+SHA256: b0f562f86e732dfde23fe3d2b6952c8d7ff7d7cd447fb4eda5484a13bc73d987
+SHA1: 6dce651a659bcffb52317f15a939f120cd67c3e0
+MD5sum: 28a311911fcad5c85708362ac8eccbf8
+Description: postproc shared libraries.
+ This package contains the FFmpeg video postprocessing shared library.
+
+Package: libswresample-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 98
+Depends: libswresample0 (= 8:1.0.1-1~precise1), libavutil-dev
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libswresample-dev_1.0.1-1~precise1_amd64.deb
+Size: 37758
+SHA256: d3d5f52cb7f91a6277aba127bdc452e0a307eda07ce64751e8b2749d1ce4ebac
+SHA1: 58cee76be64b3f7a801870a35fbfb18bf1f5e032
+MD5sum: f045725c1d2ec900b26e6dcbb5588506
+Description: Development files for libswresample.
+ This is the audio scaling library from the FFmpeg project.
+ .
+ Please send me a better description.
+
+Package: libswresample0
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 70
+Pre-Depends: multiarch-support
+Depends: libavutil51 (>= 8:1.0.1), libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libswresample0_1.0.1-1~precise1_amd64.deb
+Size: 34012
+SHA256: 8e5bfc9f88da23a7e7cf78e5e0406f2c6c3d902d9bf430c3541eb1c09f2acb67
+SHA1: 820725b85d5f2dccd47d0273bf56aac6d30ca794
+MD5sum: 8baff32b07471527afc100e54eb889fb
+Description: FFmpeg audio rescaling library.
+ This is the audio scaling library from the FFmpeg project.
+ .
+ Please send me a better description.
+
+Package: libswscale-dev
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 265
+Depends: libswscale2 (= 8:1.0.1-1~precise1)
+Conflicts: libswscalecvs-dev, libswscalecvs0-dev (<= 3:20071129-0.0)
+Replaces: libavcodeccvs51 (<= 3:20070312-0.0), libavcodeccvs51-dev (<= 3:20070528-0.0), libswscalecvs-dev, libswscalecvs0-dev (<= 3:20071129-0.0)
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/ffmpeg-doubango/libswscale-dev_1.0.1-1~precise1_amd64.deb
+Size: 76754
+SHA256: 5150bec25a465f6234b3a146aad67ef544a5b4d8ab58af6079bc86837b6ff1c4
+SHA1: 0f2e78cdd9bb8ac6d3a65337309af51c5c2958ac
+MD5sum: 6425e099201e515e9d19c5b074b03602
+Description: Development files for libswscale.
+ This is the video scaling library from the FFmpeg project.
+ .
+ Please send me a better description.
+
+Package: libswscale2
+Source: ffmpeg-doubango
+Version: 8:1.0.1-1~precise1
+Architecture: amd64
+Bugs: mailto:marillat@deb-multimedia.org
+Maintainer: Christian Marillat <marillat@deb-multimedia.org>
+Installed-Size: 198
+Pre-Depends: multiarch-support
+Depends: libavutil51 (>= 8:1.0.1), libc6 (>= 2.14)
+Conflicts: libswscale-extra-2, libswscalecvs0
+Replaces: libswscalecvs0
+Multi-Arch: same
+Homepage: http://ffmpeg.mplayerhq.hu/
+Priority: optional
+Section: libs
+Filename: pool/main/f/ffmpeg-doubango/libswscale2_1.0.1-1~precise1_amd64.deb
+Size: 69192
+SHA256: 3109b55f65861ec24dc9c737d1148db1cbda086b5099ae466f78ed046fda9ab0
+SHA1: 70bdb8e48d18d945c2c268807267366533e328ca
+MD5sum: 081aa9d094fb60642a93967bb5661ab4
+Description: FFmpeg video scaling library.
+ This is the video scaling library from the FFmpeg project.
+ .
+ Please send me a better description.
+
+Package: rfc5766-turn-server
+Version: 1.8.6.3-1~precise1
+Architecture: amd64
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Installed-Size: 697
+Depends: libc6 (>= 2.14), libevent-core-2.0-5 (>= 2.0.16-stable), libevent-openssl-2.0-5 (>= 2.0.16-stable), libevent-pthreads-2.0-5 (>= 2.0.16-stable), libhiredis0.10 (>= 0.10.1), libmysqlclient18 (>= 5.5.13-1), libpq5 (>= 8.4~), libssl1.0.0 (>= 1.0.0), adduser
+Conflicts: turnserver
+Homepage: http://code.google.com/p/rfc5766-turn-server/
+Priority: extra
+Section: net
+Filename: pool/main/r/rfc5766-turn-server/rfc5766-turn-server_1.8.6.3-1~precise1_amd64.deb
+Size: 291472
+SHA256: 9fdbd0709b3280be874766be18109169f4638255bb2b5d962fba04648ae2e883
+SHA1: fae2220bb1ce85dbaddfc88b187791b2f647cb20
+MD5sum: f83d82d9e1468d8eaa3c28f6dbdea547
+Description: TURN and STUN server for VoIP
+ STUN (Session Traversal Utilities for NAT) and TURN (Traversal Using Relays
+ around NAT) are protocols that can be used to provide NAT traversal for VoIP
+ and WebRTC. This package provides a VoIP media traffic NAT traversal server
+ and gateway.
+ .
+ This implementation also includes some extra features.
+ .
+ Supported RFCs:
+ TURN specs:
+  * RFC 5766 - base TURN specs;
+  * RFC 6062 - TCP relaying TURN extension;
+  * RFC 6156 - IPv6 extension for TURN;
+  * Experimental DTLS support as client protocol.
+ STUN specs:
+  * RFC 5389 - base "new" STUN specs;
+  * RFC 5769 - test vectors for STUN protocol testing;
+  * RFC 5780 - NAT behavior discovery support.
+ .
+ The implementation fully supports UDP, TCP, TLS, and DTLS as protocols between
+ the TURN client and the TURN server. Both UDP and TCP relaying are supported.
+ .
+ Flat files, MySQL, PostgreSQL, or Redis are all supported for the user
+ repository (if authentication is required).
+ Both short-term and long-term credentials mechanisms are supported.
+ For WebRTC applications, the TURN server REST API for time-limited
+ secret-based authentication is implemented.
+ .
+ Load balancing can be implemented either by external networking tools, or by
+ the built-in ALTERNATE-SERVER mechanism.
+ .
+ The implementation is intended to be simple to install and configure.
+ The project focuses on performance, scalability, and simplicity.
+ The aim is to provide an enterprise-grade TURN solution.
+
+Package: webrtc2sip
+Version: 2.5.0+svn87-0~precise3
+Architecture: amd64
+Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
+Installed-Size: 921
+Depends: libc6 (>= 2.14), libdoubango, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), libxml2 (>= 2.7.4)
+Homepage: http://www.webrtc2sip.org/
+Priority: extra
+Section: net
+Filename: pool/main/w/webrtc2sip/webrtc2sip_2.5.0+svn87-0~precise3_amd64.deb
+Size: 440284
+SHA256: b0e47c21519bed1e23ac03d929cbfdc36639a170cd271049410fb25f17ac0050
+SHA1: d8e663e0fb9bc1c78750000eb9cbb91572221617
+MD5sum: 3feb5b44055b89e88b404c9344928b6c
+Description: Smart SIP and Media Gateway to connect WebRTC endpoints
+ webrtc2sip is a smart and powerful gateway using RTCWeb and SIP to turn your browser into a phone with audio, video and SMS capabilities. The gateway allows your web browser to make and receive calls from/to any SIP-legacy network or PSTN.
+ .
+ As an example, you will be able to make a call from your preferred web browser to a SIP-legacy softphone or mobile/fixed phone.
+ .
+ The gateway contains three modules: SIP Proxy | RTCWeb Breaker | Media Coder.
+
