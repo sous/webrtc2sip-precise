@@ -41,7 +41,9 @@ add_repo:
 build:
 	sudo pbuilder build --configfile $(PBUILDERRC) src/ffmpeg-doubango*dsc
 	make add_debs
-	sudo pbuilder build --configfile $(PBUILDERRC) src/doubango*dsc
+	sudo pbuilder build --configfile $(PBUILDERRC) src/libyuv*dsc
+	make add_debs
+	sudo pbuilder build --configfile $(PBUILDERRC) src/doubango_2.0+svn1025-0~precise1.dsc
 	make add_debs
 	sudo pbuilder build --configfile $(PBUILDERRC) src/webrtc2sip*dsc
 	sudo pbuilder build --configfile $(PBUILDERRC) src/rfc5766-turn-server*dsc

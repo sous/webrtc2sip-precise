@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
 Format: 1.0
 Source: ffmpeg-doubango
 Binary: ffmpeg-doc, libavcodec54, libavcodec-dev, libpostproc52, libpostproc-dev, libavutil51, libavutil-dev, libavformat54, libavformat-dev, libswscale2, libswscale-dev, libavdevice54, libavdevice-dev, libavfilter3, libavfilter-dev, libswresample0, libswresample-dev
@@ -39,11 +36,3 @@ Checksums-Sha256:
 Files: 
  8d3bf52801d202d46d84ac38d7f33819 7873172 ffmpeg-doubango_1.0.1.orig.tar.gz
  be74b3ad58eb8628fecee6be7d86a2bf 16478 ffmpeg-doubango_1.0.1-1~precise1.diff.gz
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
-
-iEYEARECAAYFAlD5DLQACgkQ4gANHUH2dnqjvACeJBFVRk8+Tm/JND/Z6lulBpAY
-Mv8Anj/f7H3FMc5v3M2Wc9dy+HgzwbpB
-=R+Tu
------END PGP SIGNATURE-----

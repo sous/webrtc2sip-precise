@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA1
-
 Format: 3.0 (quilt)
 Source: rfc5766-turn-server
 Binary: rfc5766-turn-server
@@ -22,11 +19,3 @@ Checksums-Sha256:
 Files: 
  d7175dd0bf60b2ce744d8152101f2196 204809 rfc5766-turn-server_1.8.6.3.orig.tar.gz
  c01eb7e8426d981a61554a8206a113a7 8161 rfc5766-turn-server_1.8.6.3-1~precise1.debian.tar.gz
-
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
-
-iEUEARECAAYFAlG4SRYACgkQ4gANHUH2dnriYQCfZ6XaEZsPCijiTSyoiMH3ngOa
-vwkAli3l0PoV+KNGhTAFTwuY6IxTHWM=
-=K5W4
------END PGP SIGNATURE-----

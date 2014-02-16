@@ -280,19 +280,19 @@ Description: FFmpeg avutil library - runtime files
 
 Package: libdoubango
 Source: doubango
-Version: 2.0+svn885-0~precise1
+Version: 2.0+svn1025-0~precise1
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
-Installed-Size: 2329
-Depends: libavcodec54 (>= 8:1.0.1), libavutil51 (>= 8:1.0.1), libc6 (>= 2.15), libgsm1 (>= 1.0.13), libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libsrtp0, libssl1.0.0 (>= 1.0.1), libswscale2 (>= 8:1.0.1), libvpx1 (>= 1.0.0)
+Installed-Size: 2464
+Depends: libavcodec54 (>= 8:1.0.1), libavutil51 (>= 8:1.0.1), libc6 (>= 2.15), libgsm1 (>= 1.0.13), libopencore-amrnb0, libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libsrtp0, libssl1.0.0 (>= 1.0.1), libswscale2 (>= 8:1.0.1), libvpx1 (>= 1.0.0)
 Homepage: http://www.doubango.org/
 Priority: extra
 Section: libs
-Filename: pool/main/d/doubango/libdoubango_2.0+svn885-0~precise1_amd64.deb
-Size: 878260
-SHA256: 37e05f5cf2f87a12781b4e52a8c9ac48e0340ca0ffe273b0bb00c692f6e9bfe4
-SHA1: 22f5f6afa2d6f171a99a8b792217e1729992f004
-MD5sum: 5bf135150faaceab4bd7450b6e78b67d
+Filename: pool/main/d/doubango/libdoubango_2.0+svn1025-0~precise1_amd64.deb
+Size: 923046
+SHA256: ba856681be78d51f2d2906e5b116a56df567f8830c654cca154ef6dfdf9f981e
+SHA1: 3a770db67b30877dd5d5942b640c56cbdacdef8e
+MD5sum: aaa73ae828c0501a019b12c835cea98d
 Description: Doubango framework
  doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
  .
@@ -300,19 +300,19 @@ Description: Doubango framework
 
 Package: libdoubango-dev
 Source: doubango
-Version: 2.0+svn885-0~precise1
+Version: 2.0+svn1025-0~precise1
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
-Installed-Size: 5997
-Depends: libdoubango (= 2.0+svn885-0~precise1)
+Installed-Size: 6116
+Depends: libdoubango (= 2.0+svn1025-0~precise1)
 Homepage: http://www.doubango.org/
 Priority: extra
 Section: libdevel
-Filename: pool/main/d/doubango/libdoubango-dev_2.0+svn885-0~precise1_amd64.deb
-Size: 1327628
-SHA256: ddd46b1b932120760e2b32bdb889c86554def0d42255cd1e9c3de4ecf4d2b7a3
-SHA1: 55e678b29117696299650ec8307ba29d89a6c979
-MD5sum: e9903b437d307d2f3ca20b76e00ec03e
+Filename: pool/main/d/doubango/libdoubango-dev_2.0+svn1025-0~precise1_amd64.deb
+Size: 1364014
+SHA256: 23031b26fd51e22f481ac5aa259b84af2109caa0441bda75c7d0d251ca99bbfd
+SHA1: f842d85601ff3ddb3e1176535888e0559fc42d67
+MD5sum: 39818e49b504ff38bd8b6e2f89f2d949
 Description: Doubango framework development files
  doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
  .
@@ -457,6 +457,68 @@ Description: FFmpeg video scaling library.
  .
  Please send me a better description.
 
+Package: libyuv
+Version: 0.634-0ubuntu0~ppa2~precise
+Architecture: amd64
+Maintainer: Ilya Melnikov <rayanAyar@mail.ru>
+Installed-Size: 232
+Depends: libc6 (>= 2.14), libstdc++6 (>= 4.1.1)
+Homepage: http://code.google.com/p/libyuv/
+Priority: extra
+Section: libs
+Filename: pool/main/liby/libyuv/libyuv_0.634-0ubuntu0~ppa2~precise_amd64.deb
+Size: 64532
+SHA256: a2cf6610e7e8e017e52ce5cc6f415db0176d7372a086c4ed711ca123261cc65e
+SHA1: 58d5a8d9f30738b126ca6fcccc12ab0bbddc1640
+MD5sum: 90a451ae2c34842d0cc5b09364f83de1
+Description: YUV conversion and scaling
+ open source project that includes
+ YUV conversion and scaling functionality.
+ .
+ This package provides shared library.
+
+Package: libyuv-dbg
+Source: libyuv
+Version: 0.634-0ubuntu0~ppa2~precise
+Architecture: amd64
+Maintainer: Ilya Melnikov <rayanAyar@mail.ru>
+Installed-Size: 281
+Depends: libyuv (= 0.634-0ubuntu0~ppa2~precise)
+Homepage: http://code.google.com/p/libyuv/
+Priority: extra
+Section: debug
+Filename: pool/main/liby/libyuv/libyuv-dbg_0.634-0ubuntu0~ppa2~precise_amd64.deb
+Size: 83576
+SHA256: c68eafd75ac9348ec14c9da0933618e55bc166a57eb252a00cf7e40e134b88cb
+SHA1: 822cb7300c5517895ff2f182d4f9aadb3d18b1ac
+MD5sum: 5a28f7364308b80967988232820673a0
+Description: YUV conversion and scaling
+ open source project that includes
+ YUV conversion and scaling functionality.
+ .
+ This package contains the debugging symbols.
+
+Package: libyuv-dev
+Source: libyuv
+Version: 0.634-0ubuntu0~ppa2~precise
+Architecture: amd64
+Maintainer: Ilya Melnikov <rayanAyar@mail.ru>
+Installed-Size: 153
+Depends: libyuv (= 0.634-0ubuntu0~ppa2~precise)
+Homepage: http://code.google.com/p/libyuv/
+Priority: extra
+Section: libdevel
+Filename: pool/main/liby/libyuv/libyuv-dev_0.634-0ubuntu0~ppa2~precise_amd64.deb
+Size: 21778
+SHA256: 3ff656054ee14b9157590a34cc1fd969dd813846a1f12406176a48eef6ca6572
+SHA1: de869c57c6e24cff47e76f4b0c174c9b8cc86b8b
+MD5sum: 061691944514a55893c2578af6665ab0
+Description: YUV conversion and scaling
+ open source project that includes
+ YUV conversion and scaling functionality.
+ .
+ This package provides development files.
+
 Package: rfc5766-turn-server
 Version: 1.8.6.3-1~precise1
 Architecture: amd64
@@ -508,19 +570,19 @@ Description: TURN and STUN server for VoIP
  The aim is to provide an enterprise-grade TURN solution.
 
 Package: webrtc2sip
-Version: 2.5.0+svn87-0~precise3
+Version: 2.6.0+svn123-0~precise3
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
-Installed-Size: 921
+Installed-Size: 1062
 Depends: libc6 (>= 2.14), libdoubango, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), libxml2 (>= 2.7.4)
 Homepage: http://www.webrtc2sip.org/
 Priority: extra
 Section: net
-Filename: pool/main/w/webrtc2sip/webrtc2sip_2.5.0+svn87-0~precise3_amd64.deb
-Size: 440284
-SHA256: b0e47c21519bed1e23ac03d929cbfdc36639a170cd271049410fb25f17ac0050
-SHA1: d8e663e0fb9bc1c78750000eb9cbb91572221617
-MD5sum: 3feb5b44055b89e88b404c9344928b6c
+Filename: pool/main/w/webrtc2sip/webrtc2sip_2.6.0+svn123-0~precise3_amd64.deb
+Size: 416064
+SHA256: 3f535c14b8053499b0d406ce37019d86bfd34324f764cb634186b77d4b206b96
+SHA1: b2d62487b8c4cb9f8487caf19c21e9d2e2148cb5
+MD5sum: 6a715abd0b7b37baed7ba2e2ac36288a
 Description: Smart SIP and Media Gateway to connect WebRTC endpoints
  webrtc2sip is a smart and powerful gateway using RTCWeb and SIP to turn your browser into a phone with audio, video and SMS capabilities. The gateway allows your web browser to make and receive calls from/to any SIP-legacy network or PSTN.
  .
