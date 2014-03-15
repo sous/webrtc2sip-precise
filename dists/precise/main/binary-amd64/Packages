@@ -280,7 +280,7 @@ Description: FFmpeg avutil library - runtime files
 
 Package: libdoubango
 Source: doubango
-Version: 2.0+svn1025-0~precise1
+Version: 2.0+svn1025-0~precise2
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
 Installed-Size: 2464
@@ -288,11 +288,11 @@ Depends: libavcodec54 (>= 8:1.0.1), libavutil51 (>= 8:1.0.1), libc6 (>= 2.15), l
 Homepage: http://www.doubango.org/
 Priority: extra
 Section: libs
-Filename: pool/main/d/doubango/libdoubango_2.0+svn1025-0~precise1_amd64.deb
-Size: 923046
-SHA256: ba856681be78d51f2d2906e5b116a56df567f8830c654cca154ef6dfdf9f981e
-SHA1: 3a770db67b30877dd5d5942b640c56cbdacdef8e
-MD5sum: aaa73ae828c0501a019b12c835cea98d
+Filename: pool/main/d/doubango/libdoubango_2.0+svn1025-0~precise2_amd64.deb
+Size: 923114
+SHA256: bb2bf80dfbe7004ae3c7cbd1d1554ee1d67e47769b28b9fc3d31b943509b5817
+SHA1: f735419ce9a1cccdd6ae949e5c1d4d79b106967e
+MD5sum: 1d283fe79ca93eb3d8c1985bb22a8081
 Description: Doubango framework
  doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
  .
@@ -300,19 +300,19 @@ Description: Doubango framework
 
 Package: libdoubango-dev
 Source: doubango
-Version: 2.0+svn1025-0~precise1
+Version: 2.0+svn1025-0~precise2
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
 Installed-Size: 6116
-Depends: libdoubango (= 2.0+svn1025-0~precise1)
+Depends: libdoubango (= 2.0+svn1025-0~precise2)
 Homepage: http://www.doubango.org/
 Priority: extra
 Section: libdevel
-Filename: pool/main/d/doubango/libdoubango-dev_2.0+svn1025-0~precise1_amd64.deb
-Size: 1364014
-SHA256: 23031b26fd51e22f481ac5aa259b84af2109caa0441bda75c7d0d251ca99bbfd
-SHA1: f842d85601ff3ddb3e1176535888e0559fc42d67
-MD5sum: 39818e49b504ff38bd8b6e2f89f2d949
+Filename: pool/main/d/doubango/libdoubango-dev_2.0+svn1025-0~precise2_amd64.deb
+Size: 1364054
+SHA256: b2b14a72cbf03d2ae169925221f6e8f1b00134e8faa6a470f9e3425564b536ab
+SHA1: 612aa436b6a80125bdb38d46a6bc02c16696db6a
+MD5sum: 7452219f6804734a5101df0862d1e188
 Description: Doubango framework development files
  doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
  .
