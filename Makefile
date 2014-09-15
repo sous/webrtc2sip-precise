@@ -43,9 +43,9 @@ build:
 	make add_debs
 	sudo pbuilder build --configfile $(PBUILDERRC) src/libyuv*dsc
 	make add_debs
-	sudo pbuilder build --configfile $(PBUILDERRC) src/doubango_2.0+svn1025-0~precise1.dsc
+	sudo pbuilder build --configfile $(PBUILDERRC) src/doubango_2.0+svn1143-0~precise2.dsc
 	make add_debs
-	sudo pbuilder build --configfile $(PBUILDERRC) src/webrtc2sip*dsc
+	sudo pbuilder build --configfile $(PBUILDERRC) src/webrtc2sip_2.6.0+svn132-0~precise1.dsc
 	sudo pbuilder build --configfile $(PBUILDERRC) src/rfc5766-turn-server*dsc
 	make add_debs
 	make add_dscs

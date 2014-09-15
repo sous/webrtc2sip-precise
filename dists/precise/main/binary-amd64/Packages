@@ -280,19 +280,19 @@ Description: FFmpeg avutil library - runtime files
 
 Package: libdoubango
 Source: doubango
-Version: 2.0+svn1025-0~precise2
+Version: 2.0+svn1143-0~precise2
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
-Installed-Size: 2464
-Depends: libavcodec54 (>= 8:1.0.1), libavutil51 (>= 8:1.0.1), libc6 (>= 2.15), libgsm1 (>= 1.0.13), libopencore-amrnb0, libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libsrtp0, libssl1.0.0 (>= 1.0.1), libswscale2 (>= 8:1.0.1), libvpx1 (>= 1.0.0)
+Installed-Size: 2821
+Depends: libavcodec54 (>= 8:1.0.1), libavutil51 (>= 8:1.0.1), libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libgsm1 (>= 1.0.13), libopencore-amrnb0, libspeex1 (>= 1.2~beta3-1), libspeexdsp1 (>= 1.2~beta3.2-1), libsrtp0, libssl1.0.0 (>= 1.0.1), libstdc++6 (>= 4.1.1), libswscale2 (>= 8:1.0.1), libvpx1 (>= 1.0.0)
 Homepage: http://www.doubango.org/
 Priority: extra
 Section: libs
-Filename: pool/main/d/doubango/libdoubango_2.0+svn1025-0~precise2_amd64.deb
-Size: 923114
-SHA256: bb2bf80dfbe7004ae3c7cbd1d1554ee1d67e47769b28b9fc3d31b943509b5817
-SHA1: f735419ce9a1cccdd6ae949e5c1d4d79b106967e
-MD5sum: 1d283fe79ca93eb3d8c1985bb22a8081
+Filename: pool/main/d/doubango/libdoubango_2.0+svn1143-0~precise2_amd64.deb
+Size: 1057772
+SHA256: fced40ccd96ae08b9b4e2ea3f858c0fa2248580ff93f35aa614c917f703f5da9
+SHA1: 6b7701bf0aebc1e474e0fd054952c6a9369740cd
+MD5sum: 88bf8c3e0722252126cac1bbb621d57b
 Description: Doubango framework
  doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
  .
@@ -300,19 +300,19 @@ Description: Doubango framework
 
 Package: libdoubango-dev
 Source: doubango
-Version: 2.0+svn1025-0~precise2
+Version: 2.0+svn1143-0~precise2
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
-Installed-Size: 6116
-Depends: libdoubango (= 2.0+svn1025-0~precise2)
+Installed-Size: 6949
+Depends: libdoubango (= 2.0+svn1143-0~precise2)
 Homepage: http://www.doubango.org/
 Priority: extra
 Section: libdevel
-Filename: pool/main/d/doubango/libdoubango-dev_2.0+svn1025-0~precise2_amd64.deb
-Size: 1364054
-SHA256: b2b14a72cbf03d2ae169925221f6e8f1b00134e8faa6a470f9e3425564b536ab
-SHA1: 612aa436b6a80125bdb38d46a6bc02c16696db6a
-MD5sum: 7452219f6804734a5101df0862d1e188
+Filename: pool/main/d/doubango/libdoubango-dev_2.0+svn1143-0~precise2_amd64.deb
+Size: 1557256
+SHA256: 32fb87b0c08fc65f47dd0d97975e7f620dce0028e34055b9994d1b54903f2b9c
+SHA1: 92f438f654112db480e8ccd4aa8cdde3888e8a6d
+MD5sum: 92618d5d903b5833ca21c3c55c8379ff
 Description: Doubango framework development files
  doubango is an experimental, open source 3GPP IMS/LTE framework for both embedded and desktop systems. The framework is written in ANSI-C to ease portability and has been carefully designed to efficiently work on embedded systems with limited memory and low computing power and to be extremely portable.
  .
@@ -570,19 +570,19 @@ Description: TURN and STUN server for VoIP
  The aim is to provide an enterprise-grade TURN solution.
 
 Package: webrtc2sip
-Version: 2.6.0+svn123-0~precise3
+Version: 2.6.0+svn132-0~precise1
 Architecture: amd64
 Maintainer: Jeremy Jongepier <jeremy@autostatic.com>
-Installed-Size: 1062
+Installed-Size: 1066
 Depends: libc6 (>= 2.14), libdoubango, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), libxml2 (>= 2.7.4)
 Homepage: http://www.webrtc2sip.org/
 Priority: extra
 Section: net
-Filename: pool/main/w/webrtc2sip/webrtc2sip_2.6.0+svn123-0~precise3_amd64.deb
-Size: 416064
-SHA256: 3f535c14b8053499b0d406ce37019d86bfd34324f764cb634186b77d4b206b96
-SHA1: b2d62487b8c4cb9f8487caf19c21e9d2e2148cb5
-MD5sum: 6a715abd0b7b37baed7ba2e2ac36288a
+Filename: pool/main/w/webrtc2sip/webrtc2sip_2.6.0+svn132-0~precise1_amd64.deb
+Size: 416306
+SHA256: b6c8f1c5abd3ed93e8cbe1197e11f108d7a6323c29a7a2466fc99f77bfab673f
+SHA1: 1c22f0c32f1ecce72dcb02a1674b3bb293640557
+MD5sum: 5f2180729edbb65c5837bb54f556024e
 Description: Smart SIP and Media Gateway to connect WebRTC endpoints
  webrtc2sip is a smart and powerful gateway using RTCWeb and SIP to turn your browser into a phone with audio, video and SMS capabilities. The gateway allows your web browser to make and receive calls from/to any SIP-legacy network or PSTN.
  .
